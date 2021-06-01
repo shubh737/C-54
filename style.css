@@ -1,0 +1,104 @@
+h1
+{
+ color : rgb(236, 76, 13); 
+ border : solid; 
+ background-color: skyblue;
+ padding: 25px;
+ margin-left: 30px;
+ margin-right: 30px;                  
+}
+
+body
+{
+  margin: 0px;
+}
+
+p
+{
+  margin : 15px;
+}
+
+li
+{
+  margin : 15px;
+}
+
+.header
+{
+  display: flex;
+  flex-direction: column;
+  margin : 15px;
+}
+
+.info
+{
+  display: flex;
+  flex-direction: column;
+  margin : 15px;
+  background-color: rgb(78, 147, 204);
+}
+
+.pandaImg
+{
+  border: solid;
+  border-color: yellowgreen;
+  background-image: url("bamboo.png");
+  margin : 15px;
+}
+
+.camelImg
+{
+  border: solid;
+  border-color: sandybrown;
+  background-image: url("desert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin : 15px;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.info a:link
+{
+  color : lavender
+}
+
+.info a:visited
+{
+  color : lavender
+}
+
+a:link
+{
+  color : blueviolet
+}
+
+a:visited
+{
+  color : blueviolet
+}
+
+.pandaImg:hover
+{
+  transform: scale(1.5,1.5);
+}
+
+.camelImg:hover
+{
+  transform: scale(1.5,1.5);
+}
+
+h1:hover
+{
+  transform: scale(1.5,1.5);
+}
+
+.info:hover
+{
+  transform: scale(1.5,1.5);
+}
+
+
